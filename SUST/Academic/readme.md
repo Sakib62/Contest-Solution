@@ -1,0 +1,1 @@
+Contest for evaluation of academic course.

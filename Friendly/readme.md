@@ -1,0 +1,3 @@
+- Practice Contest
+- Friendly Competition
+- Contest arranged by some Org, company, Institute etc.
