@@ -1,3 +1,3 @@
-- Practice Contest
+- Practice Contest by me or friends
 - Friendly Competition
-- Contest arranged by some Org, company, Institute etc.
+- Contest arranged by some Org, Company, Institute etc (Not Competitive, for Fun or some Cause).
