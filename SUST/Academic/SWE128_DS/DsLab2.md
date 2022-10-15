@@ -1,22 +1,19 @@
 # [A - Two Gangsters](https://acm.timus.ru/problem.aspx?space=1&num=1409)
 <details>
-<summary>Summary</summary>
+<summary><b>Summary</b></summary>
 
-<blockquote>
 There are at max 10 cans. Harry starts shooting them from left to right & Larry shoots right to left. At one point, they both shoot the same can and stop shooting.
 <br><br>
-How many cans did each of them not shoot?</blockquote>
+How many cans did each of them not shoot?
 </details>
 <details>
-<summary>Tutorial</summary>
+<summary><b>Tutorial</b></summary>
 
-<blockquote>
 Both of them shot the last can. Apart from that, none shot the cans of that other person shot. Harry started from left and stopped when shot a can at the same time with Larry. Harry didn't shot rest of the cans that Larry shot.<br><br>
 So, both of them didn't shot 1 less than other shot.
-</blockquote>
 </details>
 <details>
-<summary>Solution</summary>
+<summary><b>Solution</b></summary>
 
 ```cpp
 #include <bits/stdc++.h>
@@ -33,24 +30,20 @@ int main()
 
 # [B - 1, 10, 100, 1000...](https://acm.timus.ru/problem.aspx?space=1&num=1209)
 <details>
-<summary>Summary</summary>
+<summary><b>Summary</b></summary>
 
-<blockquote>
 An infinite sequence of digits constructed by concatenating ascending powers of 10. Here is the beginning of the sequence: 110100100010000… 
 <br><br>
 Find out what digit is located at the given position of the sequence.
-</blockquote>
 </details>
 <details>
-<summary>Tutorial</summary>
+<summary><b>Tutorial</b></summary>
 
-<blockquote>
 If we look at powers of 10, each time number of zero increases.<br>1, 10, 100, 1000, 10000,...Positions of 1 are: 1, 2, 4, 7, 11, 16...<br>Difference between position of 1 increases by 1.<br><br>
 So in this sequence, we can pre calculate the position of 1's and store it in a container.Then at given position, just check whether it exist in the container. If it does, then given position contains 1, else it contains 0.
-</blockquote>
 </details>
 <details>
-<summary>Solution</summary>
+<summary><b>Solution</b></summary>
 
 ```cpp
 #include <bits/stdc++.h>
@@ -82,17 +75,17 @@ int main() {
 
 # [C - Labyrinth](https://acm.timus.ru/problem.aspx?space=1&num=1033)
 <details>
-<summary>Summary</summary>
+<summary><b>Summary</b></summary>
 
 
 </details>
 <details>
-<summary>Tutorial</summary>
+<summary><b>Tutorial</b></summary>
 
 
 </details>
 <details>
-<summary>Solution</summary>
+<summary><b>Solution</b></summary>
 
 ```cpp
 ```
@@ -100,24 +93,20 @@ int main() {
 
 # [D - Brave Balloonists](https://acm.timus.ru/problem.aspx?space=1&num=1049)
 <details>
-<summary>Summary</summary>
+<summary><b>Summary</b></summary>
 
-<blockquote>
 Given 10 numbers, determine product(P) of them, count total divisor(X) of the product(P). Print the last digit of X.
-</blockquote>
 </details>
 <details>
-<summary>Tutorial</summary>
+<summary><b>Tutorial</b></summary>
 
-<blockquote>
 We need to prime factorize every 10 numbers, thus we get the frequency of prime numbers that are factors of at least one of the 10 numbers.<br>If a prime's frequency is X, we can take this prime X+1 times, that is we can take X times & not take it at all. X+1 is the number of option for a single prime factor.<br>Thus,by multiplying available options for all prime factors, we get total divisor for the product of 10 numbers. Then, just print modulo of it.
 <br>
 <br>
 Note that if all 10 numbers are 1, the answer is 1. Though it must be handled if we initialize ans with 1.
-</blockquote>
 </details>
 <details>
-<summary>Solution</summary>
+<summary><b>Solution</b></summary>
 
 ```cpp
 #include <bits/stdc++.h>
@@ -155,23 +144,19 @@ int main() {
 
 # [E - Oh Your Royal Greediness!](https://vjudge.net/problem/UVA-11776/origin)
 <details>
-<summary>Summary</summary>
+<summary><b>Summary</b></summary>
 
-<blockquote>
 Starting time & Ending time is given. One enforcer must be present in this interval. At a time, one enforcer can be at one interval. After finishing that interval, the enforcer can be at another interval.<br><br>
 Given list of intervals, at least how many enforcers are required?
-</blockquote>
 </details>
 <details>
-<summary>Tutorial 1</summary>
+<summary><b>Tutorial 1</b></summary>
 
-<blockquote>
 When an interval begins, we must assign an enforcer to that interval. When the interval finishes, the enforcer can resign.<br><br>
 Thus, we keep track of how many enforcers are present at a given time. Maximum of these value is the answer.
-</blockquote>
 </details>
 <details>
-<summary>Solution 1</summary>
+<summary><b>Solution 1</b></summary>
 
 ```cpp
 #include <bits/stdc++.h>
@@ -207,14 +192,12 @@ int main() {
 ```
 </details>
 <details>
-<summary>Tutorial 2</summary>
+<summary><b>Tutorial 2</b></summary>
 
-<blockquote>
 We can individually store start & end time and sort them both. Then, for each ending time, check how many enforcers are already assigned. This can be done by checking how many start time is smaller or how many interval started before current interval ended. After going through each interval's ending time, we get the maximum number of enforcers we need at a certain time.
-</blockquote>
 </details>
 <details>
-<summary>Solution 2</summary>
+<summary><b>Solution 2</b></summary>
 
 ```cpp
 #include <bits/stdc++.h>
