@@ -1,4 +1,4 @@
-# [A - Extended Traffic](https://lightoj.com/problem/extended-traffic)
+<h1><a href="https://lightoj.com/problem/extended-traffic" target="_blank">A - Extended Traffic</a></h1>
 <details>
 <summary><b>Summary</b></summary>
 
