@@ -2,12 +2,16 @@
 <details>
 <summary><b>Summary</b></summary>
 
+Print all primes less than 10^8.
 
+To make the problem less output related print out only the 1st, 101st, 201st, ... 1st mod 100.
 </details>
 <details>
 <summary><b>Tutorial</b></summary>
 
+We can use 'Sieve of Eratosthenes' to compute primes. It has a complexity of nlog(logn).
 
+Using bitwise operation will make the code space efficient.
 </details>
 
 [**Solution**](Solution/A_UseBitwiseSieveForThisProblem.cpp)
