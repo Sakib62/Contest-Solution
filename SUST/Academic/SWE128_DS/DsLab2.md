@@ -208,7 +208,7 @@ int main() {
 ```
 </details>
 
-# [E - Oh Your Royal Greediness!](https://vjudge.net/problem/UVA-11776/origin)
+# [E - Oh Your Royal Greediness!](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2876)
 <details>
 <summary><b>Summary</b></summary>
 
